@@ -1,5 +1,5 @@
 import './App.css'
-import userdata from "../userdata.json" 
+import userdata from "../src/userdata.json" 
 import Profile from "./components/Profile/Profile"
 export default function App() {
   return (
