@@ -5,7 +5,7 @@ import {Profile} from "./Profile"
 export default function App() {
   return (
     <>
-     < Profile data = "userData"/>
+     < Profile data = {userData}/>
     </>
   )
 }
