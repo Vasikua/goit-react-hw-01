@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import {userData} from "../src/userData.json" 
-import {Profile} from "./components/Profile/Profile"
+import {userData} from "../userData.json" 
+import {Profile} from "./Profile"
 export default function App() {
   return (
     <>
