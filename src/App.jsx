@@ -1,10 +1,10 @@
 import './App.css'
-import userData from "../userData.json" 
-import Profile from "./Profile"
+import userdata from "./userdata.json" 
+import Profile from "./components/Profile/Profile"
 export default function App() {
   return (
     <>
-     < Profile data = {userData}/>
+     < Profile data = {userdata}/>
     </>
   )
 }
